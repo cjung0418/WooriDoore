@@ -1,0 +1,22 @@
+.card {
+  border-radius: 3px;
+  padding: 0 4% 4% 0;
+}
+
+.smallcard {
+  border-radius: 3px; 
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.card > img,
+.smallcard > img {
+  width: 100%;
+}
+
+.flexJustifyBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgba(0, 0, 0, .5);
+  /* Backdrop 컴포넌트의 자식 컴포넌트인 ProductModal을 화면 중앙에 배치하기 위함 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  border-radius: 12px;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.separator{
+  display: flex;
+  align-items: center;
+}
+
+.separator h2{
+  padding: 0 2rem; /* creates the space */
+}
+
+.separator .line{
+  flex: 1;
+  height: 0.3px;
+  background-color: lightgrey;
+}

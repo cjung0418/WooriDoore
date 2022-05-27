@@ -1,0 +1,33 @@
+server:
+  port: 9999
+
+spring:
+  main:
+    allow-circular-references: true
+  h2:
+    console:
+      enabled: true
+      path: /console
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 403327007510-mac0quejd0oj649d6k4gbva987hk94me.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+            - profile 
+            - email
+
+custom:
+  oauth2:
+    kakao:
+      client-id: d0c28ab1ec869874fb6be4eaa9ff193a
+      client-secret: 
+    naver:
+      client-id: NdU1K3bxbbte1VfAXfS7
+      client-secret: jJeri7Ebwr
+      
+      
