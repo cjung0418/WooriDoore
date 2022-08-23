@@ -11,16 +11,16 @@
 ## **기술 스택**
 
 ### **Frontend**
-![image](/uploads/c2555911b2b0cd18a38993213fb37528/image.png)
+![frontend](README.assets/frontend.png)
 
 ### **Backend**
-![image](/uploads/1533e70746de904993e96f3caba80c17/image.png)
+![backend](README.assets/backend.png)
 
 ### **DevOps**
-![image](/uploads/b959ad0f61cf23710a0bbb8a2b2bdb34/image.png)
+![dev](README.assets/dev.png)
 
 ### **Co-tool**
-![image](/uploads/5fe7acaaaf25eff9f3596f0b62404bd1/image.png)
+![cotool](README.assets/cotool.png)
 
 
 
